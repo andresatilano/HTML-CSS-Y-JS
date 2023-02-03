@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn {
+    font-size: 15pt;
+    font-weight: 600;
+    color: rgb(128, 128, 128);
+    background-color: pink;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    transition: all 0,4s;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    transform: translatey(-5px);
+    box-shadow: 5px 5px rgb(80, 80, 80);
+    background-color: salmon;
+    color:white;
+}
