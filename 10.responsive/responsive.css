@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    font-size: 2rem;
+}
+
+.sidebar {
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 10px;
+}
+
+.main {
+    padding: 10px;
+    flex-grow: 1;
+    text-align: center;
+}
+@media (max-width: 640px){
+body {
+    flex-direction: column-reverse;
+}
+
+.sidebar {
+    flex-direction: row;
+        justify-content: space-evenly;
+}
+}
